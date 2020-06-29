@@ -1,0 +1,10 @@
+<hello name=""></hello>
+<p>
+  Start editing to see some magic happen :)
+</p>
+
+<button (click)="runFunction()">RUN</button>
+<ng-container *ngIf="showConfirm">
+  <button (click)="pressYes('Yes')">Yes</button>
+  <button (click)="pressNo('No')">No</button>
+</ng-container>
